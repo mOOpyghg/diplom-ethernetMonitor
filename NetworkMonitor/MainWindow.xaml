@@ -1,0 +1,188 @@
+﻿<Window x:Class="NetworkMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        Title="Network Monitor" Height="900" Width="1400"
+        mc:Ignorable="d">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Control Panel -->
+        <Border Grid.Row="0" Background="#2C3E50" Padding="10">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="StartBtn" Content="▶ Start" Click="StartBtn_Click"
+                        Background="#27AE60" Foreground="White" Width="90" Margin="5" FontWeight="Bold" FontSize="14"/>
+                <Button x:Name="StopBtn" Content="■ Stop" Click="StopBtn_Click"
+                        Background="#E74C3C" Foreground="White" Width="90" Margin="5" IsEnabled="False" FontWeight="Bold" FontSize="14"/>
+                <ComboBox x:Name="DeviceCombo" Width="400" Margin="5" FontSize="12"/>
+                <CheckBox x:Name="MonitorDevices" Content="Monitor Devices" Margin="15,0,0,0" Foreground="White" FontSize="12"/>
+                <CheckBox x:Name="MonitorSites" Content="Monitor Sites" Margin="10,0" IsChecked="True" Foreground="White" FontSize="12"/>
+                <TextBlock x:Name="PacketCountText" Text="Packets: 0" Foreground="#3498DB" Margin="20,5,0,0" FontSize="12" FontWeight="Bold"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Statistics Panel -->
+        <Border Grid.Row="1" Background="#34495E" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Download Speed -->
+                <Border Grid.Column="0" Background="#2C3E50" Margin="5" Padding="10" CornerRadius="5">
+                    <StackPanel>
+                        <TextBlock Text="↓ Download Speed" Foreground="#BDC3C7" FontSize="12"/>
+                        <TextBlock x:Name="DownloadSpeed" Text="0 KB/s" Foreground="#2ECC71" FontSize="28" FontWeight="Bold"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Upload Speed -->
+                <Border Grid.Column="1" Background="#2C3E50" Margin="5" Padding="10" CornerRadius="5">
+                    <StackPanel>
+                        <TextBlock Text="↑ Upload Speed" Foreground="#BDC3C7" FontSize="12"/>
+                        <TextBlock x:Name="UploadSpeed" Text="0 KB/s" Foreground="#E74C3C" FontSize="28" FontWeight="Bold"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Total Downloaded -->
+                <Border Grid.Column="2" Background="#2C3E50" Margin="5" Padding="10" CornerRadius="5">
+                    <StackPanel>
+                        <TextBlock Text="⬇ Total Downloaded" Foreground="#BDC3C7" FontSize="12"/>
+                        <TextBlock x:Name="TotalDownload" Text="0 MB" Foreground="#F39C12" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Total Uploaded -->
+                <Border Grid.Column="3" Background="#2C3E50" Margin="5" Padding="10" CornerRadius="5">
+                    <StackPanel>
+                        <TextBlock Text="⬆ Total Uploaded" Foreground="#BDC3C7" FontSize="12"/>
+                        <TextBlock x:Name="TotalUpload" Text="0 MB" Foreground="#3498DB" FontSize="20" FontWeight="Bold"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+
+        <!-- Main Tabs -->
+        <TabControl Grid.Row="2" Margin="5">
+            <!-- Tab 1: Network Devices -->
+            <TabItem Header="Network Devices">
+                <DataGrid x:Name="DevicesGrid" ItemsSource="{Binding Devices}" AutoGenerateColumns="False" AlternatingRowBackground="#F5F5F5" FontSize="12">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="IP Address" Binding="{Binding IP}" Width="140"/>
+                        <DataGridTextColumn Header="MAC Address" Binding="{Binding MAC}" Width="160"/>
+                        <DataGridTextColumn Header="Hostname" Binding="{Binding Hostname}" Width="180"/>
+                        <DataGridTextColumn Header="Vendor" Binding="{Binding Vendor}" Width="140"/>
+                        <DataGridTextColumn Header="Sent (MB)" Binding="{Binding Sent}" Width="100"/>
+                        <DataGridTextColumn Header="Received (MB)" Binding="{Binding Received}" Width="100"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <!-- Tab 2: Visited Sites -->
+            <TabItem Header="Visited Sites">
+                <DataGrid x:Name="SitesGrid" ItemsSource="{Binding Sites}" AutoGenerateColumns="False" AlternatingRowBackground="#F5F5F5" FontSize="12">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Domain" Binding="{Binding Domain}" Width="280" FontWeight="Bold" Foreground="#2980B9"/>
+                        <DataGridTextColumn Header="IP Address" Binding="{Binding IP}" Width="140"/>
+                        <DataGridTextColumn Header="Device IP" Binding="{Binding DeviceIP}" Width="140"/>
+                        <DataGridTextColumn Header="Last Visit" Binding="{Binding LastVisit}" Width="160"/>
+                        <DataGridTextColumn Header="Count" Binding="{Binding Count}" Width="80"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <!-- Tab 3: Active Connections -->
+            <TabItem Header="Active Connections">
+                <DataGrid x:Name="ConnectionsGrid" ItemsSource="{Binding Connections}" AutoGenerateColumns="False" AlternatingRowBackground="#F5F5F5" FontSize="12">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Local IP" Binding="{Binding LocalIP}" Width="130"/>
+                        <DataGridTextColumn Header="Local Port" Binding="{Binding LocalPort}" Width="100"/>
+                        <DataGridTextColumn Header="Remote IP" Binding="{Binding RemoteIP}" Width="130"/>
+                        <DataGridTextColumn Header="Remote Port" Binding="{Binding RemotePort}" Width="100"/>
+                        <DataGridTextColumn Header="Protocol" Binding="{Binding Protocol}" Width="80"/>
+                        <DataGridTextColumn Header="State" Binding="{Binding State}" Width="120"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <!-- Tab 4: Live Packets -->
+            <TabItem Header="Live Packets">
+                <Grid>
+                    <DataGrid x:Name="PacketsGrid" ItemsSource="{Binding LivePackets}" AutoGenerateColumns="False" AlternatingRowBackground="#F5F5F5" SelectionMode="Single" SelectionChanged="PacketGrid_SelectionChanged" FontSize="11" VirtualizingPanel.ScrollUnit="Pixel">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Time" Binding="{Binding Time}" Width="90"/>
+                            <DataGridTextColumn Header="Source IP" Binding="{Binding SourceIP}" Width="120"/>
+                            <DataGridTextColumn Header="Destination IP" Binding="{Binding DestinationIP}" Width="120"/>
+                            <DataGridTextColumn Header="Protocol" Binding="{Binding Protocol}" Width="70"/>
+                            <DataGridTextColumn Header="Size" Binding="{Binding Size}" Width="70"/>
+                            <DataGridTextColumn Header="Info" Binding="{Binding Info}" Width="250"/>
+                            <DataGridTextColumn Header="Domain" Binding="{Binding Domain}" Width="180" Foreground="#2980B9" FontWeight="Bold"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab 5: Device Sites -->
+            <TabItem Header="Device Sites">
+                <DataGrid x:Name="DeviceSitesGrid" ItemsSource="{Binding DeviceSites}" AutoGenerateColumns="False" AlternatingRowBackground="#F5F5F5" FontSize="12">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Device IP" Binding="{Binding DeviceIP}" Width="140"/>
+                        <DataGridTextColumn Header="Domain" Binding="{Binding Domain}" Width="280" FontWeight="Bold" Foreground="#2980B9"/>
+                        <DataGridTextColumn Header="Last Visit" Binding="{Binding LastVisit}" Width="160"/>
+                        <DataGridTextColumn Header="Count" Binding="{Binding Count}" Width="80"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+
+        <!-- Speed Chart -->
+        <Border Grid.Row="3" Background="#ECF0F1" Padding="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="📊 Speed Graph (KB/s)" Grid.Row="0" FontWeight="Bold" Margin="5" FontSize="14" Foreground="#2C3E50"/>
+                <lvc:CartesianChart x:Name="SpeedChart" Grid.Row="1">
+                    <lvc:CartesianChart.Series>
+                        <lvc:LineSeries Title="Download" Values="{Binding DownloadValues}" Stroke="#2ECC71" Fill="Transparent" PointGeometrySize="0" StrokeThickness="2"/>
+                        <lvc:LineSeries Title="Upload" Values="{Binding UploadValues}" Stroke="#E74C3C" Fill="Transparent" PointGeometrySize="0" StrokeThickness="2"/>
+                    </lvc:CartesianChart.Series>
+                    <lvc:CartesianChart.AxisX>
+                        <lvc:Axis Title="Time (seconds)"/>
+                    </lvc:CartesianChart.AxisX>
+                    <lvc:CartesianChart.AxisY>
+                        <lvc:Axis Title="KB/s"/>
+                    </lvc:CartesianChart.AxisY>
+                </lvc:CartesianChart>
+            </Grid>
+        </Border>
+
+        <!-- Status Bar -->
+        <StatusBar Grid.Row="4" Background="#2C3E50" Height="25">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Foreground="#BDC3C7" FontSize="11">
+                    Ready. Select a packet to see details.
+                </TextBlock>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Foreground="#BDC3C7" FontSize="11">
+                    Tip: Run as Administrator for full packet capture
+                </TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

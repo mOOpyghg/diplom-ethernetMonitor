@@ -1,0 +1,75 @@
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.exe
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.deps.json
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.runtimeconfig.json
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.dll
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.pdb
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\LiveCharts.dll
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\LiveCharts.Wpf.dll
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\PacketDotNet.dll
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\SharpPcap.dll
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.csproj.AssemblyReference.cache
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor_MarkupCompile.cache
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.g.resources
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.AssemblyInfoInputs.cache
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.AssemblyInfo.cs
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.csproj.CoreCompileInputs.cache
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkM.86050C12.Up2Date
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.dll
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\refint\NetworkMonitor.dll
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.pdb
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.genruntimeconfig.cache
+C:\Users\moopy\source\repos\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\ref\NetworkMonitor.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.exe
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.deps.json
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.runtimeconfig.json
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.pdb
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\LiveCharts.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\LiveCharts.Wpf.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\PacketDotNet.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\SharpPcap.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\App.g.cs
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor_MarkupCompile.cache
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.g.resources
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.AssemblyInfo.cs
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkM.86050C12.Up2Date
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\refint\NetworkMonitor.dll
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.pdb
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.genruntimeconfig.cache
+C:\Mac\Home\Desktop\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\ref\NetworkMonitor.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.exe
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.deps.json
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.runtimeconfig.json
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\NetworkMonitor.pdb
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\LiveCharts.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\LiveCharts.Wpf.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\PacketDotNet.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\bin\Debug\net9.0-windows\SharpPcap.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.csproj.AssemblyReference.cache
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\App.g.cs
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor_MarkupCompile.cache
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.g.resources
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.AssemblyInfoInputs.cache
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.AssemblyInfo.cs
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkM.86050C12.Up2Date
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\refint\NetworkMonitor.dll
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.pdb
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\NetworkMonitor.genruntimeconfig.cache
+C:\Mac\Home\Desktop\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\NetworkMonitor\NetworkMonitor\obj\Debug\net9.0-windows\ref\NetworkMonitor.dll

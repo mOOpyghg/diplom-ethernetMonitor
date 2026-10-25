@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "oHCBSp8LMpM=",
+  "success": true,
+  "projectFilePath": "C:\\Mac\\Home\\Desktop\\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\\NetworkMonitor\\NetworkMonitor\\NetworkMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moopy\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\packetdotnet\\1.4.8\\packetdotnet.1.4.8.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\sharppcap\\6.3.1\\sharppcap.6.3.1.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\system.text.encoding.codepages\\9.0.5\\system.text.encoding.codepages.9.0.5.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.20\\microsoft.windowsdesktop.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.20\\microsoft.netcore.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\9.0.20\\microsoft.netcore.app.host.win-arm64.9.0.20.nupkg.sha512",
+    "C:\\Users\\moopy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.20\\microsoft.aspnetcore.app.ref.9.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Mac\\Home\\Desktop\\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\\NetworkMonitor\\NetworkMonitor\\NetworkMonitor.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Mac\\Home\\Desktop\\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\\NetworkMonitor\\NetworkMonitor\\NetworkMonitor.csproj",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net9.0-windows"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Mac\\Home\\Desktop\\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\\NetworkMonitor\\NetworkMonitor\\NetworkMonitor.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Mac\\Home\\Desktop\\МОЙ ДИПЛОМ НЕ УДАЛЯТЬ\\NetworkMonitor\\NetworkMonitor\\NetworkMonitor.csproj",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net9.0-windows"
+      ]
+    }
+  ]
+}
